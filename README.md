@@ -2,6 +2,9 @@
 
 A Gradio chatbot for the fictional airline **FlightAI**. The assistant answers customer questions using OpenAI tool calling, looks up flight prices and dates from a local SQLite database, generates destination brochure images, and speaks replies with text-to-speech.
 
+<img width="1871" height="818" alt="image" src="https://github.com/user-attachments/assets/9ac2b4a7-7872-4e3a-a5cd-6d037997c76b" />
+
+
 ## Features
 
 - Chat interface powered by OpenAI (`gpt-4.1-mini`)
