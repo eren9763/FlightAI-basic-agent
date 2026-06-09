@@ -25,7 +25,7 @@ system_message= "You are a helpful assistant for an Airline called FlightAI. Giv
 
 DB = "data.db"
 
-# 1. RESET TABLE (important)
+
 with sqlite3.connect(DB) as conn:
     cursor = conn.cursor()
 
@@ -44,7 +44,6 @@ with sqlite3.connect(DB) as conn:
     conn.commit()
 
 
-# 2. SEED DATA
 flights = [
     ("istanbul", "london", "2026-06-10", 799),
     ("istanbul", "london", "2026-06-11", 720),
